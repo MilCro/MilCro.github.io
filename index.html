@@ -3,24 +3,96 @@
 <html lang="en">
 
 <head>
-<title>Millie</title>
+<title>MilCro</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-</style>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 
 <body>
+  <header>
+    <div class="container" style="position: relative">
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        🌗
+      </button>
+      <h1 id="name">Your Name</h1>
+      <h2 id="title">CS undergraduate</h2>
+    </div>
+  </header>
 
-<h1>My Website</h1>
-<p>hello. big things coming soomn (eventually)</p>
+
+  <main class="container">
+    <section class="hero" id="top">
+      <img
+        id="avatar"
+        src="assets/images/fillerPFP.png"
+        alt="Profile photo"
+        />
+        <div>
+          <p id="about-text" class="about">
+            THIS IS A WIP, NOT FINISHED
+            DONT LOOK AT THIS WEBSITE YET
+          </p>
+          <div class="cta">
+            <a id="emailLink" class="btn secondary" href="#">Email me</a>
+          </div>
+          <ul class="social-icons" id="socialLinks"></ul>
+        </div>
+    </section>
+
+    <section id="skills">
+      <h3>Skills</h3>
+      <ul class="chips" id="skillsList"></ul>
+    </section>
+
+    <section id="projects" class="project-section">
+      <h3>Projects</h3>
+      <div id="project-list"></div>
+    </section>
+
+    <section id="experience">
+      <h3>Experience</h3>
+      <div class="stack" id="experienceList"></div>
+    </section>
+
+    <section id="education">
+      <h3>Education</h3>
+      <div class="stack" id="educationList"></div>
+    </section>
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>
+        Email:
+        <a id="email" href="mailto:your.email@example.com"
+          >your.email@example.com</a
+        >
+      </p>
+      <p id="phoneSection" style="display: none">
+        Phone:
+        <a id="phone" href="">I dont want to share my phone number</a>
+      </p>
+      <p>
+        LinkedIn:
+        <a href="#" id="linkedin" target="_blank" rel="noopener"
+          >Your LinkedIn Profile</a
+        >
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small
+        >© <span id="year"></span>
+        <span id="footerName">Your Name</span></small
+      >
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
 
 </body>
-
 
 </html> 
