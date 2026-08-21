@@ -3,7 +3,7 @@ const portfolioData = {
   name: "Millie Rootes",
   title: "2nd Year Computer Science student - Uni of Bath",
   about:
-    "ahhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+    "To save confusion, I am in the process of changing my surname but it has not legally been changed yet. (this website is a WIP please come back later)",
   avatarUrl: "", // leave empty to hide avatar - no demo SVG will be shown
 
   social: {
@@ -24,7 +24,7 @@ const portfolioData = {
     title: "Sentiment Analysis",
     description:
     "Uses Naive Bayes to predict the sentiment of a given piece of text.",
-    tags: ["Python","Naive Bayes"],
+    tags: [],
     link: "",
     repo: "",
     image: "",
@@ -53,16 +53,16 @@ const portfolioData = {
     school: "University of Bath",
     degree: "B.Sc. Computer Science",
     start: "2025",
-    end: "2028",
+    end: "2030",
     location: "Bath, UK",
     firstYearResult: "76%",
-    highlights: ["Member of BCCS", "Member of CyberSoc"],
+    highlights: ["First year average: 76%","Member of BCSS (Bath Computer Science Society)", "Member of CyberSoc"],
     },
   ],
 
   contact: {
-    email: "https://www.youtube.com/watch?v=XfELJU1mRMg",
-    phone: "",
+    email: "milliecroucher99@gmail.com",
+    phone: "07948486755",
     linkedin: "https://www.linkedin.com/in/millie-rootes-384560307/",
     github: "https://github.com/MilCro",
   },
