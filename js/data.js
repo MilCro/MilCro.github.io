@@ -61,8 +61,8 @@ const portfolioData = {
   ],
 
   contact: {
-    email: "milliecroucher99@gmail.com",
-    phone: "07948486755",
+    email: "mjc263@bath.ac.uk",
+    phone: "",
     linkedin: "https://www.linkedin.com/in/millie-rootes-384560307/",
     github: "https://github.com/MilCro",
   },
