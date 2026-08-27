@@ -51,7 +51,7 @@ const portfolioData = {
   education: [
     {
     school: "University of Bath",
-    degree: "B.Sc. Computer Science",
+    degree: "M.Sc. Computer Science",
     start: "2025",
     end: "2030",
     location: "Bath, UK",
