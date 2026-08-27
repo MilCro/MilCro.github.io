@@ -360,7 +360,10 @@ h4 {
   cursor: pointer;
 }
 .theme-toggle:hover {
-  background: var(--bg);
+  /*background: var(--bg);*/
+  box-shadow: 0 0 5px darkblue,
+  0 0 25px darkblue, 0 0 50px darkblue,
+  0 0 100px darkblue, 0 0 200px darkblue;
 }
 .theme-toggle:focus-visible {
   outline: 2px solid var(--secondary);
