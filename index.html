@@ -9,99 +9,113 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 
-
 <body>
-  <header>
-    <div class="container" style="position: relative">
-      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
-        🌗
-      </button>
-      <h1 id="name">Your Name</h1>
-      <h2 id="title">CS undergraduate</h2>
-    </div>
-  </header>
-
-
-  <main class="container">
-    <section class="hero" id="top">
-      <img
-        id="avatar"
-        src="assets/images/fillerPFP.png"
-        alt="Profile photo"
-        />
-        <div>
-          <p id="about-text" class="about"></p>
-          <div class="cta">
-            <a id="emailLink" class="btn secondary" href="#">Email me</a>
-          </div>
-          <ul class="social-icons" id="socialLinks"></ul>
+    <header>
+        <div class="header">
+            <h1>Millie Rootes</h1>
+            <h2>2nd year CS student - University of Bath</h2>
+            <button id="theme-toggle"></button>
         </div>
-    </section>
+    </header>
 
-    <section id="skills">
-      <h3>Skills</h3>
-      <ul class="chips" id="skillsList"></ul>
-    </section>
 
-    <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            
-          </div>
-          <div class="flip-card-back">
-            
-          </div>
+    <main>
+
+        <div class="contact-me-container">
+            <div>
+                <a href="mailto:mjc263@bath.ac.uk" target="_blank" rel="noopener noreferrer">Email me</a>
+            </div>
+            <div>
+                <a href="https://github.com/MilCro" target="_blank" rel="noopener noreferrer">Github</a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/millie-rootes-384560307/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
         </div>
-      </div>
+
+        <div class="intro-container">
+            <div>
+                <img id="my-picture" src="assets/images/PFP.png" alt="my photo">
+            </div>
+            <div>
+                <h3>Hi I am Millie, a computer science undergraduate from the University of Bath.</h3>
+                <h3>This website is a massive work in progress but will eventually be a portfolio where I can share some of my projects. (I am learning HTML, CSS and JS from scratch at the moment)</h3>
+                <h3>Please come back later!</h3>
+            </div>
+        </div>
+
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div>Python</div>
+            <div>Java</div>
+            <div>OSINT</div>
+        </div>
+
+        <h2>Projects</h2>
+        <p>Mobile users click cards to flip.</p>
+        <div class="projects-container">
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h2>Sentiment Analysis</h2>
+                        <p>Uses a Naive Bayes algorithm to predict whether text has a positive or negative sentiment.</p>
+                    </div>
+                    <div class="flip-card-back">
+                        Demo coming soon...
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        Project pending...
+                    </div>
+                    <div class="flip-card-back">
+                        Demo coming soon...
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        Project pending...
+                    </div>
+                    <div class="flip-card-back">
+                        Demo coming soon...
+                    </div>
+                </div>
+            </div>
+ 
+        </div>
+
+        <h2>Education</h2>
+        <div class="education-container">
+            <h3>M.Sc Computer Science - University of Bath</h3>
+            <small>2025-2030</small>
+            <ul>
+                <li>First year average: 76%</li>
+                <li>Member of BCSS</li>
+                <li>Member of CyberSoc</li>
+            </ul>
+        </div>
+
+    </main>
 
 
-    <section id="projects" class="project-section">
-      <h3>Projects</h3>
-      <div id="project-list"></div>
-    </section>
 
-    <section id="experience">
-      <h3>Experience</h3>
-      <div class="stack" id="experienceList"></div>
-    </section>
+    <footer>
+        <div class="footer">
+            <small>
+                Millie Rootes
+            </small>
+        </div>
+    </footer>
 
-    <section id="education">
-      <h3>Education</h3>
-      <div class="stack" id="educationList"></div>
-    </section>
-
-    <section id="contact">
-      <h3>Contact</h3>
-      <p>
-        Email:
-        <a id="email" href="mailto:your.email@example.com"
-          >your.email@example.com</a
-        >
-      </p>
-      <p id="phoneSection" style="display: none">
-        Phone:
-        <a id="phone" href="">My Phone Number</a>
-      </p>
-      <p>
-        LinkedIn:
-        <a href="#" id="linkedin" target="_blank" rel="noopener"
-          >Millie Rootes</a
-        >
-      </p>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <small
-        >© <span id="year"></span>
-        <span id="footerName">Your Name</span></small
-      >
-    </div>
-  </footer>
-
-  <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/main.js"></script>
 
 </body>
+</html>
 
-</html> 
