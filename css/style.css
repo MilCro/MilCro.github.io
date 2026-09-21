@@ -76,7 +76,7 @@ small {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
-    margin: 1.25rem 20rem 1.25rem 26rem; /*top right bottom left*/
+    margin: auto; /*top right bottom left*/
     padding: 1.25rem;
 }
 .contact-me-container div {
