@@ -3,3 +3,32 @@ h4 {
     text-align: left;
     padding: 1.25rem;
 }
+
+.input-form {
+    /*justify-items: center;*/
+    padding: 1.25rem;
+}
+
+#text-input {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: dotted var(--accent-color);
+    padding: 1.2rem;
+    cursor: text;
+    font-size: larger;
+    width: 90%;
+}
+#text-input:focus {
+    outline: var(--accent-color);
+}
+
+#analyse-button {
+    background: var(--accent-color);
+    width: 100px;
+    height: 30px;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 16px;
+}

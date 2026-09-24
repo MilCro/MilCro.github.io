@@ -19,3 +19,13 @@ themeToggle.addEventListener('click', toggleTheme);
 
 initTheme();
 
+
+
+const homeButton = document.getElementById('home-button');
+
+function returnHome() {
+    window.location.href = "index.html";
+}
+
+homeButton.addEventListener('click', returnHome);
+
