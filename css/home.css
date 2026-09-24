@@ -1,80 +1,9 @@
 
-:root {
-    --background-color: #EDEBFC;
-    --text-color: #0E0626;
-    --primary-color: #6E68B0;
-    --accent-color: #482370;
-    --contact-color: #CFC0EB;
-    --card-color1: var(--primary-color);
-    --card-color2: var(--contact-color);
-    --toggle-icon: "dark";
-}
-
-[data-theme="dark"] {
-    --background-color: #0E0626;
-    --text-color: #EDEBFC;
-    --primary-color: #BA9AF5;
-    --accent-color: #482370;
-    --contact-color: #8F8AEB;
-    --card-color1: #391257;
-    --card-color2: #571E82;
-    --toggle-icon: "light";
-}
-
-
-.header {
-    vertical-align: text-top;
-    text-align: center;
-}
-
-#theme-toggle {
-    background: var(--accent-color);
-    width: 60px;
-    height: 30px;
-    font-size: 1.2rem;
-    color: var(--primary-color);
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border-radius: 16px;
-}
-#theme-toggle::before {
-    content: var(--toggle-icon);
-}
-
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    padding: 1.25rem;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter,
-    Arial, sans-serif;
-}
-
-h1 {
-    font-size: 3rem;
-    color: var(--primary-color);
-}
-
-h2 {
-    margin: 1.25rem 2rem;
-}
-
-h3 {
-    font-size: larger;
-    margin: 1.25rem 2rem;
-}
-
-p {
-    margin: 1.25rem 2rem;
-}
-
-small {
-    margin: 1.25rem 2rem;
-}
 
 .contact-me-container {
     display: grid;
     grid-template-columns: auto auto auto;
+    justify-items: center;
     gap: 10px;
     margin: auto;
     padding: 1.25rem;
@@ -200,10 +129,3 @@ small {
     border-radius: 16px;
     margin: 1.25rem 2rem;
 }
-
-
-.footer {
-    text-align: center;
-    padding: 1.25rem;
-}
-

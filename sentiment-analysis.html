@@ -6,18 +6,34 @@
 <title>Sentiment Analysis</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/sentimentanalysis.css">
 </head>
 
 <body>
 
     <header>
-        <h2>Sentiment Analysis</h2>
-        <button id="theme-toggle"></button>
+        <div class="header">
+            <h1>Sentiment Analysis</h1>
+            <button id="theme-toggle"></button>
+        </div>
     </header>
 
     <main>
-        (Project complete but demo TBC...)
+        <h3>About this project</h3>
+        <h4>This aim to predict whether a given piece of text has a positive or negative sentiment i.e.
+            the emotions that the author is conveying. It uses a multinomial Naive Bayes algorithm to make it's predictions.
+            The vocabulary used is Python's NLTK (Natural Language Tool Kit) sentiment lexicons - both positive and negative
+            put together. Due to the limited nature of this vocabulary (e.g. no slang words), this algorithm works better
+            with larger inputs. 
+        </h4>
+        <h3>Next steps</h3>
+        <h4>In future development I would like this algorithm to attempt to predict to degree of the sentiment
+            e.g. very negative, mildly positive, 70% positive etc. Additionally, I need to go though the vocabulary
+            to add new slang terms and perhaps remove older redundant ones. To further increase performance I should
+            reduce each word to their root form through stemming and remove any duplicates, both in the vocabulary
+            and the user input.
+        </h4>
     </main>
 
 
