@@ -144,10 +144,17 @@
     .intro-container div {
         padding: 1rem;
     }
+    .skills-container {
+        margin: auto;
+    }
     .projects-container {
         grid-template-columns: auto;
+        margin: auto;
     }
     .flip-card-front, .flip-card-back {
         font-size: 4cqw;
+    }
+    .education-container {
+        margin: auto;
     }
 }
