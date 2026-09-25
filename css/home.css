@@ -129,3 +129,20 @@
     border-radius: 16px;
     margin: 1.25rem 2rem;
 }
+
+
+
+/*for when the screen is smaller than 640px*/
+@media (max-width: 640px) {
+    .intro-container {
+        grid-template-columns: auto;
+        padding: 1rem;
+        margin: auto;
+    }
+    .intro-container div {
+        padding: 1rem;
+    }
+    .projects-container {
+        grid-template-columns: auto;
+    }
+}
