@@ -99,7 +99,7 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 16px;
-    font-size: calc(5cqw/3);
+    font-size: calc(4cqw/3);
 }
 .flip-card-front {
   background-image: 
